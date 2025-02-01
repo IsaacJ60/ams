@@ -1,0 +1,84 @@
+.player-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.player-list-table {
+    display: table;
+    text-align: left;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: var(--indigo);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.player-list-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.player-list-button {
+
+    font-size: 1.3rem;
+    
+    display: block;
+  
+    background-color: var(--white);
+  
+    color: var(--black);
+  
+    cursor: pointer;
+  
+    transition: all 0.3s ease-in-out 0s;
+  
+    /* responsive */
+  
+    padding: 1rem;
+  
+    border-radius: 1.6rem;
+
+    width: 20rem;
+  }
+  
+  .player-list-button:hover {
+    transform: scale(1.03);
+  }
+
+  .table-list-button {  
+    background-color: var(--white);
+  
+    color: var(--black);
+  
+    cursor: pointer;
+  
+    transition: all 0.2s ease-in-out 0s;
+  
+    /* responsive */
+  
+    padding: 0.5rem 0rem;
+  
+    border-radius: 1rem;
+
+    width: 5rem;
+  }
+  
+  .table-list-button:hover {
+    transform: scale(1.03);
+  }
+
+  .table-row {
+    display: table-row;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
